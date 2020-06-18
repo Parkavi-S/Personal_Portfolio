@@ -1,0 +1,190 @@
+
+img {
+	height: 400px;
+	width: 400px;
+	float:left;
+	image-orientation: from-image;
+	margin-right: 10px;
+  
+}
+
+ ul li a i{
+	top: 50%;
+	color: #fff;
+	width: 60px;
+	height: 60px;
+	border-radius: 40px;
+	font-size: 50px;
+	margin-right: 10px;
+	padding-top: 10%;
+ }
+ 
+ 
+.head1 {
+	background: #ADA996; 
+	background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  
+	background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+}
+
+.bod1 {		
+	background-color:#BFCDE0;
+}
+.left1 {
+	background-color:#565656;
+}
+.right1 {
+	background-color: #FEFCFD;
+}
+.foot1{
+	background-color: #ADA996;
+	background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  
+	background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+	text-decoration: none;
+	color: #666666;
+}
+
+.headfont{
+	color: #565656;
+	font-family: "Lovelo-Black", Helvetica, Arial, Sans-serif;
+}
+
+.navfont {
+	color: black;
+	font-family: "prime regular", Helvetica, Arial, Sans-serif;
+	font-size: 1.5rem;
+}
+.bodyfont {
+	color: #565656;
+	font-family: "Aleo-Regular", Helvetica, Arial, Sans-serif;
+}
+
+.proxima {
+	color: #565656;
+	font-family: "ProximaNova-Regular", Helvetica, Arial, Sans-serif;
+}
+
+.logo {
+	height: 62px;
+	width: 70px;
+	display: block;
+	text-indent: -9999px;
+	float: left;
+}
+
+.center-data{
+	text-align: center;
+	top: 25%;
+	left: 25%;
+	transform: translate(1%, 20%);
+}  
+  
+.social li {
+	display: inline-block;
+	list-style-type:none;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+}
+
+.social li a {
+	border-bottom: none;  
+}
+
+.social li a:hover {
+	opacity: 0.2;
+}
+
+.social li img {
+	width:70px;
+	height:70px;
+	margin-right: 20px;
+	padding: 5px;
+}
+
+ .fa-facebook {
+	background:#3b5998
+} 
+.fa-linkedin {
+	background:#007bb6
+}
+.fa-github{
+	background:#00aced
+}
+
+@font-face {
+  font-family: 'proxima nova bold';
+  src: url('fonts/proximanova-bold-webfont.eot');
+  src: url('fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/proximanova-bold-webfont.woff') format('woff'), url('fonts/proximanova-bold-webfont.ttf') format('truetype'), url('fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'prime regular';
+  src: url('fonts/prime-regular/Prime-Regular.eot');
+  src: url('fonts/prime-regular/Prime-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/prime-regular/Prime-Regular.woff') format('woff'), url('fonts/prime-regular/Prime-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Lovelo-Black';
+  src: url('fonts/lovelo-black/Lovelo-Black.eot');
+  src: url('fonts/lovelo-black/Lovelo-Black.eot?#iefix') format('embedded-opentype'), url('fonts/lovelo-black/Lovelo-Black.woff') format('woff'), url('fonts/lovelo-black/Lovelo-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Aleo-Regular';
+  src: url('fonts/aleo/aleo-regular-webfont.eot');
+  src: url('fonts/aleo/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/aleo/aleo-regular-webfont.woff') format('woff'), url('fonts/aleo/aleo-regular-webfont.ttf') format('truetype'),url('fonts/aleo/aleo-regular-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aleo-Italic';
+  src: url('fonts/aleo/aleo-italic-webfont.eot');
+  src: url('fonts/aleo/aleo-italic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/aleo/aleo-italic-webfont.woff') format('woff'), url('fonts/aleo/aleo-italic-webfont.ttf') format('truetype'),url('fonts/aleo/aleo-italic-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aleo-Bold';
+  src: url('fonts/aleo/aleo-bold-webfont.eot');
+  src: url('fonts/aleo/aleo-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/aleo/aleo-bold-webfont.woff') format('woff'), url('fonts/aleo/aleo-bold-webfont.ttf') format('truetype'),url('fonts/aleo/aleo-bold-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('fonts/proxima/ProximaNova-Regular.eot');
+  src: url('fonts/proxima/ProximaNova-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+div.marquee {
+    white-space:no-wrap;
+    overflow:hidden;
+}
+div.marquee > div.marquee-text {
+    white-space:nowrap;
+    display:inline;
+    width:auto;
+    color:navy;
+    font-weight:bold;
+}
+
+
+
+
+	
+	
+	
